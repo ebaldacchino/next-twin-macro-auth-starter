@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* @layer base { */
+html {
+	-webkit-tap-highlight-color: transparent;
+}
+* {
+	font-family: Lato;
+}
+/* }  */
+
+@media (max-width: 266.65px) {
+	* {
+		font-size: 6vw;
+	}
+}
+@media (min-width: 2000px) {
+	* {
+		font-size: 0.8vw;
+	}
+}
